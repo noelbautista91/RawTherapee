@@ -1561,6 +1561,12 @@ Camera constants:
         "ranges": { "white": 16100 }
     },
 
+    { // Quality C, 1:1 copy of X-T100
+    "make_model": [ "FUJIFILM X-200" ],
+    "dcraw_matrix" : [11673, -4760, -1041, -3988, 12058, 2166, -771, 1417, 5568], // taken from ART
+    "ranges": { "white": 16100 }
+    },
+
     { // Quality B
         "make_model": "FUJIFILM X-E2S",
         "dcraw_matrix": [ 11562,-5118,-961,-3022,11007,2311,-525,1569,6097 ], // DNG_v9.4 D65
